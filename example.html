@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tokenizer</title>
+  </head>
+  <body>
+    <script src="tkr.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      let tkr = new Tokenizer('This is an example', ' ');
+      while(tkr.hasMoreToken())
+      {
+        console.log(tkr.nextToken());
+      }
+    </script>
+  </body>
+</html>
